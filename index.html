@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/index.css" />
+    <link rel="stylesheet" href="./assets/css/fonts.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/js/index.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <section class="header_box">
+        <div data-aos="fade-down" class="header">
+          <div><img src="./assets/img/logo.svg" alt="" /></div>
+          <ul class="menu max-[900px]:hidden">
+            <li class="icon">
+              <i class="fa-solid fa-magnifying-glass" id="icon"></i>
+            </li>
+            <li class="line">
+              <img src="./assets/img/Line.svg" alt="" />
+            </li>
+            <li class="icon">
+              <i class="fa-solid fa-bag-shopping pl-[14px]" id="icon"></i>
+            </li>
+            <li class="line">
+              <img src="./assets/img/Line.svg" alt="" />
+            </li>
+            <li class="icon">
+              <i class="fa-regular fa-user pl-[15px]" id="icon"></i>
+            </li>
+          </ul>
+          <div><i class="fa-solid fa-bars text-[#fff]"></i></div>
+        </div>
+        <div class="max-[1100px]:flex max-[1100px]:justify-center">
+          <div class="hear pt-[20px] max-[1100px]:block">
+            <div data-aos="zoom-in">
+              <img
+                src="./assets/img/music.png"
+                alt=""
+                class="max-[1100px]:w-[515px] max-[1100px]:h-[505px] max-[520px]:w-[450px] max-[520px]:h-[450px]"
+              />
+            </div>
+            <div data-aos="zoom-in-left">
+              <p class="it max-[1100px]:text-center max-[520px]:text-[20px]">
+                Hear it. Feel it
+              </p>
+              <p
+                class="move max-[1100px]:text-center max-[520px]:text-[86px] max-[520px]:leading-[83px]"
+              >
+                Move <br />with the <br />
+                music
+              </p>
+              <div
+                class="hear_box max-[1100px]:flex max-[1100px]:justify-center max-[520px]:gap-[20px] max-[520px]:pt-[15px]"
+              >
+                <p class="money max-[520px]:text-[35px]">$435</p>
+                <div><img src="./assets/img/Line.svg" alt="" /></div>
+                <del class="del max-[520px]:text-[25px]">$465</del>
+              </div>
+              <button
+                class="buy max-[1100px]:flex max-[1100px]:m-auto max-[1100px]:mt-[25px] max-[1100px]:mb-[35px] max-[520px]:w-[130px] max-[520px]:h-[45px] max-[520px]:text-[16px] max-[520px]:pt-[8px]"
+              >
+                BUY NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <p
+        data-aos="fade-down"
+        class="our max-[515px]:text-[33px] max-[515px]:leading-[115%]"
+      >
+        Our Latest <br />
+        colour collection 2021
+      </p>
+      <section class="collection">
+        <div class="swiper mySwiper flex justify-center">
+          <div class="swiper-wrapper">
+            <div class="content swiper-slide">
+              <img src="./assets/img/img.png" alt="" />
+              <div class="text-content"></div>
+            </div>
+            <div class="content swiper-slide">
+              <img src="./assets/img/img-2.png" alt="" />
+              <div class="text-content"></div>
+            </div>
+            <div class="content swiper-slide">
+              <img src="./assets/img/img-3.png" alt="" />
+              <div class="text-content"></div>
+            </div>
+            <div class="content swiper-slide">
+              <img src="./assets/img/img.png" alt="" />
+              <div class="text-content"></div>
+            </div>
+            <div class="content swiper-slide">
+              <img src="./assets/img/img-2.png" alt="" />
+              <div class="text-content"></div>
+            </div>
+            <div class="content swiper-slide">
+              <img src="./assets/img/img-3.png" alt="" />
+              <div class="text-content"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="max-[1430px]:flex max-[1430px]:justify-center">
+        <section class="good_box max-[1430px]:block">
+          <div>
+            <p data-aos="fade-down-right" class="good max-[1430px]:text-center">
+              Good headphones <br />
+              and loud music is all <br />
+              you need
+            </p>
+            <ul class="box">
+              <li
+                data-aos="fade-right"
+                data-aos-offset="400"
+                data-aos-easing="ease-in-sine"
+              >
+                <img src="./assets/img/battery.svg" alt="" />
+              </li>
+              <li data-aos="fade-right">
+                <p class="text">Battery</p>
+                <p class="codec">Battery 6.2V-AAC codec</p>
+                <p class="learn">Lern More</p>
+              </li>
+            </ul>
+            <ul class="box">
+              <li
+                data-aos="fade-right"
+                data-aos-offset="400"
+                data-aos-easing="ease-in-sine"
+              >
+                <img src="./assets/img/bluetooth.svg" alt="" />
+              </li>
+              <li data-aos="fade-right">
+                <p class="text">Battery</p>
+                <p class="codec">Battery 6.2V-AAC codec</p>
+                <p class="learn">Lern More</p>
+              </li>
+            </ul>
+            <ul class="box">
+              <li
+                data-aos="fade-right"
+                data-aos-offset="400"
+                data-aos-easing="ease-in-sine"
+              >
+                <img src="./assets/img/mickrophone.svg" alt="" />
+              </li>
+              <li data-aos="fade-right">
+                <p class="text">Battery</p>
+                <p class="codec">Battery 6.2V-AAC codec</p>
+                <p class="learn">Lern More</p>
+              </li>
+            </ul>
+          </div>
+          <div class="images max-[1430px]:hidden">
+            <div data-aos="fade-right" class="left">
+              <img src="./assets/img/icon.svg" alt="" />
+            </div>
+            <div
+              data-aos="zoom-in"
+              class="imag max-[1430px]:w-[300px] max-[1430px]:h-[474px]"
+            >
+              <img src="./assets/img/image 6.png" alt="" />
+            </div>
+            <div data-aos="fade-left" class="right">
+              <img src="./assets/img/icon_2.svg" alt="" />
+            </div>
+          </div>
+        </section>
+      </section>
+      <section>
+        <p data-aos="fade-down" class="latest">Our Latest Product</p>
+        <p data-aos="fade-down" class="lorem max-[680px]:hidden">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
+          facilisis <br />
+          nunc ipsum aliquam, ante.
+        </p>
+      </section>
+      <section class="max-[1300px]:flex max-[1300px]:justify-center">
+        <section>
+          <ul
+            class="flex justify-center gap-[41px] pt-[43px] max-[1300px]:block max-[1300px]:gap-[0px]"
+          >
+            <li data-aos="zoom-in-up" class="max-[1430px]:pt-[20px]">
+              <div><img src="./assets/img/images.png" alt="" /></div>
+              <div class="flex gap-[104px] pt-[25px]">
+                <img src="./assets/img/star.svg" alt="" />
+                <p class="time">4.50</p>
+              </div>
+              <div class="flex gap-[94px] pt-[10px]">
+                <p class="name">Read Headphone</p>
+                <p class="moneys">$ 256</p>
+              </div>
+            </li>
+            <li data-aos="zoom-in-up" class="max-[1430px]:pt-[20px]">
+              <div><img src="./assets/img/images-2.png" alt="" /></div>
+              <div class="flex gap-[104px] pt-[25px]">
+                <img src="./assets/img/star.svg" alt="" />
+                <p class="time">4.50</p>
+              </div>
+              <div class="flex gap-[94px] pt-[10px]">
+                <p class="name">Read Headphone</p>
+                <p class="moneys">$ 256</p>
+              </div>
+            </li>
+            <li data-aos="zoom-in-up" class="max-[1430px]:pt-[20px]">
+              <div><img src="./assets/img/images-3.png" alt="" /></div>
+              <div class="flex gap-[104px] pt-[25px]">
+                <img src="./assets/img/star.svg" alt="" />
+                <p class="time">4.50</p>
+              </div>
+              <div class="flex gap-[94px] pt-[10px]">
+                <p class="name">Read Headphone</p>
+                <p class="moneys">$ 256</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </section>
+      <section class="max-[1230px]:flex max-[1230px]:justify-center">
+        <section class="flex justify-around max-[1230px]:block">
+          <div
+            data-aos="zoom-in-right"
+            class="pt-[120px] max-[1430px]:w-[520px]"
+          >
+            <img src="./assets/img/box.png" alt="" />
+          </div>
+          <div
+            class="max-[1230px]:flex max-[1230px]:justify-center max-[1230px]:text-center"
+          >
+            <div class="pt-[190px] max-[1430px]:pt-[30px]">
+              <p class="get max-[1230px]:text-center">
+                Whatever you get <br />
+                in the box
+              </p>
+              <div
+                class="five_a flex gap-[15px] pt-[48px] max-[1230px]:text-center"
+              >
+                <div class="btn">
+                  <img src="./assets/img/left-right.svg" alt="" />
+                </div>
+                <p class="a max-[1230px]:text-center">5A Charger</p>
+              </div>
+              <p class="option">
+                By now you may have noticed that <br />
+                web design, simply put, is a series <br />
+                of boxes inside of boxes with text <br />
+                and images inside of them. Try selecting <br />
+                the parent element of this text <br />
+              </p>
+              <hr class="pt-[20px]" width="292px" />
+              <div
+                class="five_a flex gap-[15px] pt-[20px] max-[1230px]:text-center"
+              >
+                <div class="btn-you">
+                  <img src="./assets/img/left-right.svg" alt="" />
+                </div>
+                <p class="a">Extra battery</p>
+              </div>
+              <p class="you">
+                By now you may have noticed that <br />
+                web design, simply put, is a series <br />
+                of boxes inside of boxes with text <br />
+                and images inside of them. Try selecting <br />
+                the parent element of this text <br />
+              </p>
+              <hr class="pt-[20px]" width="292px" />
+              <div
+                class="five_a flex gap-[15px] pt-[20px] max-[1230px]:text-center"
+              >
+                <div class="btn-we">
+                  <img src="./assets/img/left-right.svg" alt="" />
+                </div>
+                <p class="a">Sophisticated bag</p>
+              </div>
+              <p class="we">
+                By now you may have noticed that <br />
+                web design, simply put, is a series <br />
+                of boxes inside of boxes with text <br />
+                and images inside of them. Try selecting <br />
+                the parent element of this text <br />
+              </p>
+              <hr class="pt-[20px]" width="292px" />
+              <div
+                class="five_a flex gap-[15px] pt-[20px] max-[1230px]:text-center"
+              >
+                <div class="btn-she">
+                  <img src="./assets/img/left-right.svg" alt="" />
+                </div>
+                <p class="a">User manual guide</p>
+              </div>
+              <p class="she">
+                By now you may have noticed that <br />
+                web design, simply put, is a series <br />
+                of boxes inside of boxes with text <br />
+                and images inside of them. Try selecting <br />
+                the parent element of this text <br />
+              </p>
+              <hr class="pt-[20px]" width="292px" />
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="max-[1390px]:flex max-[1390px]:justify-center">
+        <section class="flex justify-around pb-[130px] max-[1390px]:block">
+          <div class="max-[1390px]:hidden">
+            <div class="pl-[190px] pt-[70px]">
+              <img class="rot" src="./assets/img/note-1.svg" alt="" />
+            </div>
+            <div class="flex gap-[100px]">
+              <div class="pl-[127px] pt-[41px]">
+                <img class="rot" src="./assets/img/note-2.svg" alt="" />
+              </div>
+              <div class="pt-[50px]">
+                <img class="rot" src="./assets/img/note-3.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="flip-left"
+            class="send-box mt-[152px] max-[1060px]:w-[600px] max-[1060px]:h-[292px]"
+          >
+            <p class="send">Subscribe</p>
+            <p class="send-text">Lorem ipsum dolor sit amet, consectetur</p>
+            <form class="pt-[36px] flex justify-center">
+              <input type="text" placeholder="  Enter Your email address" />
+              <button class="input-btn">Subscribe</button>
+            </form>
+          </div>
+          <div class="max-[1390px]:hidden">
+            <div class="pt-[131px]">
+              <img class="rot" src="./assets/img/note-4.svg" alt="" />
+            </div>
+            <div class="pt-[44px] pl-[80px]">
+              <img class="rot" src="./assets/img/note-5.svg" alt="" />
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer class="max-[1050px]:flex max-[1050px]:justify-center bg-[#ff4948]">
+      <section
+        class="footer bg-[#ff4948] flex justify-around max-[1050px]:block"
+      >
+        <div class="max-[1050px]:flex max-[1050px]:justify-center">
+          <img src="./assets/img/logo.svg" alt="" />
+        </div>
+        <ul class="flex justify-center gap-[33px] max-[1050px]:block">
+          <li><a href="#" class="max-[1050px]:pt-[10px]">Home</a></li>
+          <li><a href="#" class="max-[1050px]:pt-[10px]">About</a></li>
+          <li><a href="#" class="max-[1050px]:pt-[10px]">Product</a></li>
+        </ul>
+        <ul class="flex justify-center gap-[35px] max-[1050px]:hidden">
+          <li
+            class="w-[52px] h-[52px] bg-[#fff] rounded-[100%] pt-[15px] pl-[15px]"
+          >
+            <img src="./assets/img/footer.svg" alt="" />
+          </li>
+          <li
+            class="w-[52px] h-[52px] bg-[#fff] rounded-[100%] pt-[15px] pl-[15px]"
+          >
+            <img src="./assets/img/footer-2.svg" alt="" />
+          </li>
+          <li
+            class="w-[52px] h-[52px] bg-[#fff] rounded-[100%] pt-[15px] pl-[17px]"
+          >
+            <img src="./assets/img/footer-3.svg" alt="" />
+          </li>
+        </ul>
+      </section>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
