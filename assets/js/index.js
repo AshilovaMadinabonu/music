@@ -29,3 +29,9 @@ $(".btn-we").click(function () {
 $(".btn-she").click(function () {
   $(".she").toggle("show");
 });
+
+$(document).ready(function () {
+  $(".mobile-nav i").click(function () {
+    $(".site-nav-menu").toggleClass("mobile-menu");
+  });
+});

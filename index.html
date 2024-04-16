@@ -25,26 +25,34 @@
   <body>
     <header>
       <section class="header_box">
-        <div data-aos="fade-down" class="header">
-          <div><img src="./assets/img/logo.svg" alt="" /></div>
-          <ul class="menu max-[900px]:hidden">
-            <li class="icon">
-              <i class="fa-solid fa-magnifying-glass" id="icon"></i>
-            </li>
-            <li class="line">
-              <img src="./assets/img/Line.svg" alt="" />
-            </li>
-            <li class="icon">
-              <i class="fa-solid fa-bag-shopping pl-[14px]" id="icon"></i>
-            </li>
-            <li class="line">
-              <img src="./assets/img/Line.svg" alt="" />
-            </li>
-            <li class="icon">
-              <i class="fa-regular fa-user pl-[15px]" id="icon"></i>
-            </li>
-          </ul>
-          <div><i class="fa-solid fa-bars text-[#fff]"></i></div>
+        <div data-aos="fade-down" class="header-container pt-[20px]">
+          <div class="site-logo">
+            <img src="./assets/img/logo.svg" alt="" />
+          </div>
+
+          <div class="site-nav-menu">
+            <ul class="primary-menu">
+              <li class="icon">
+                <i class="fa-solid fa-magnifying-glass" id="active"></i>
+              </li>
+              <li class="line">
+                <img src="./assets/img/Line.svg" alt="" />
+              </li>
+              <li class="icon">
+                <i class="fa-solid fa-bag-shopping pl-[14px]" id="active"></i>
+              </li>
+              <li class="line">
+                <img src="./assets/img/Line.svg" alt="" />
+              </li>
+              <li class="icon">
+                <i class="fa-regular fa-user pl-[15px]" id="active"></i>
+              </li>
+            </ul>
+          </div>
+          <div class="pt-[25px] group"><img src="./assets/img/Group 58.svg" alt="" /></div>
+          <div class="mobile-nav">
+            <i class="fa-solid fa-bars text-[#fff]"></i>
+          </div>
         </div>
         <div class="max-[1100px]:flex max-[1100px]:justify-center">
           <div class="hear pt-[20px] max-[1100px]:block">
@@ -55,7 +63,7 @@
                 class="max-[1100px]:w-[515px] max-[1100px]:h-[505px] max-[520px]:w-[450px] max-[520px]:h-[450px]"
               />
             </div>
-            <div data-aos="zoom-in-left">
+            <div>
               <p class="it max-[1100px]:text-center max-[520px]:text-[20px]">
                 Hear it. Feel it
               </p>
@@ -164,7 +172,7 @@
               >
                 <img src="./assets/img/mickrophone.svg" alt="" />
               </li>
-              <li data-aos="fade-right">
+              <li>
                 <p class="text">Battery</p>
                 <p class="codec">Battery 6.2V-AAC codec</p>
                 <p class="learn">Lern More</p>
@@ -181,7 +189,7 @@
             >
               <img src="./assets/img/image 6.png" alt="" />
             </div>
-            <div data-aos="fade-left" class="right">
+            <div class="right">
               <img src="./assets/img/icon_2.svg" alt="" />
             </div>
           </div>
@@ -238,17 +246,14 @@
       </section>
       <section class="max-[1230px]:flex max-[1230px]:justify-center">
         <section class="flex justify-around max-[1230px]:block">
-          <div
-            data-aos="zoom-in-right"
-            class="pt-[120px] max-[1430px]:w-[520px]"
-          >
+          <div data-aos="zoom-in-right" class="pt-[120px] max-[1430px]:hidden">
             <img src="./assets/img/box.png" alt="" />
           </div>
           <div
             class="max-[1230px]:flex max-[1230px]:justify-center max-[1230px]:text-center"
           >
             <div class="pt-[190px] max-[1430px]:pt-[30px]">
-              <p class="get max-[1230px]:text-center">
+              <p class="get max-[1230px]:text-center max-[1430px]:pt-[30px]">
                 Whatever you get <br />
                 in the box
               </p>
@@ -260,7 +265,7 @@
                 </div>
                 <p class="a max-[1230px]:text-center">5A Charger</p>
               </div>
-              <p class="option">
+              <p class="option pb-[20px]">
                 By now you may have noticed that <br />
                 web design, simply put, is a series <br />
                 of boxes inside of boxes with text <br />
@@ -276,7 +281,7 @@
                 </div>
                 <p class="a">Extra battery</p>
               </div>
-              <p class="you">
+              <p class="you pb-[20px]">
                 By now you may have noticed that <br />
                 web design, simply put, is a series <br />
                 of boxes inside of boxes with text <br />
@@ -292,7 +297,7 @@
                 </div>
                 <p class="a">Sophisticated bag</p>
               </div>
-              <p class="we">
+              <p class="we pb-[20px]">
                 By now you may have noticed that <br />
                 web design, simply put, is a series <br />
                 of boxes inside of boxes with text <br />
@@ -308,7 +313,7 @@
                 </div>
                 <p class="a">User manual guide</p>
               </div>
-              <p class="she">
+              <p class="she pb-[20px]">
                 By now you may have noticed that <br />
                 web design, simply put, is a series <br />
                 of boxes inside of boxes with text <br />
@@ -337,12 +342,16 @@
           </div>
           <div
             data-aos="flip-left"
-            class="send-box mt-[152px] max-[1060px]:w-[600px] max-[1060px]:h-[292px]"
+            class="send-box mt-[152px] max-[1060px]:w-[600px] max-[925px]:w-[525px] max-[600px]:w-[460px] max-[600px]:h-[260px]"
           >
-            <p class="send">Subscribe</p>
+            <p class="send max-[600px]:pt-[25px]">Subscribe</p>
             <p class="send-text">Lorem ipsum dolor sit amet, consectetur</p>
             <form class="pt-[36px] flex justify-center">
-              <input type="text" placeholder="  Enter Your email address" />
+              <input
+                type="text"
+                placeholder="Enter Your email address"
+                class="input pl-[25px] max-[925px]:w-[400px] max-[925px]:h-[55px] max-[480px]:w-[300px] max-[480px]:h-[45px]"
+              />
               <button class="input-btn">Subscribe</button>
             </form>
           </div>
@@ -388,6 +397,7 @@
         </ul>
       </section>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
